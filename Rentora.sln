@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.37012.4 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rentora.Core", "Rentora.Core\Rentora.Core.csproj", "{15573741-25E6-4496-8390-D6B5B33660E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rentora.Infrastructure", "Rentora.Infrastructure\Rentora.Infrastructure.csproj", "{BC6EF907-9FF4-4710-997B-1E03115E456A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{15573741-25E6-4496-8390-D6B5B33660E7} = {15573741-25E6-4496-8390-D6B5B33660E7}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rentora.API", "Rentora.API\Rentora.API.csproj", "{A425F626-33EB-406B-A3E8-32715893AB52}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rentora.Web", "Rentora.Web\Rentora.Web.csproj", "{FAE8D466-0D88-472E-8589-C0980389B28D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rentora.InvoiceWorker", "Rentora.InvoiceWorker\Rentora.InvoiceWorker.csproj", "{5BC1C360-9E05-40B7-B46F-91735C5F352A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{15573741-25E6-4496-8390-D6B5B33660E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15573741-25E6-4496-8390-D6B5B33660E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15573741-25E6-4496-8390-D6B5B33660E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15573741-25E6-4496-8390-D6B5B33660E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC6EF907-9FF4-4710-997B-1E03115E456A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC6EF907-9FF4-4710-997B-1E03115E456A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC6EF907-9FF4-4710-997B-1E03115E456A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC6EF907-9FF4-4710-997B-1E03115E456A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A425F626-33EB-406B-A3E8-32715893AB52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A425F626-33EB-406B-A3E8-32715893AB52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A425F626-33EB-406B-A3E8-32715893AB52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A425F626-33EB-406B-A3E8-32715893AB52}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FAE8D466-0D88-472E-8589-C0980389B28D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAE8D466-0D88-472E-8589-C0980389B28D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAE8D466-0D88-472E-8589-C0980389B28D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAE8D466-0D88-472E-8589-C0980389B28D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BC1C360-9E05-40B7-B46F-91735C5F352A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BC1C360-9E05-40B7-B46F-91735C5F352A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BC1C360-9E05-40B7-B46F-91735C5F352A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BC1C360-9E05-40B7-B46F-91735C5F352A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0597AC2D-2F4A-402B-AA19-545B1F7CD1DC}
+	EndGlobalSection
+EndGlobal
